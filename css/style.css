@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    margin: 0;
+    height: 3681px;
+    background: linear-gradient(180deg, #D31338 0%, rgba(10, 9, 9, 0.931828) 5.21%, rgba(0, 0, 0, 0.898962) 29.17%, rgba(0, 0, 0, 0.887796) 54.69%, rgba(14, 13, 13, 0.952425) 69.79%, #1F1B1B 87.5%, #000000 100%);
+    color: #FFFFFF;
+}
+
+.container {
+    margin: auto;
+    max-width: 1170px;
+}
+
+.header {
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 169px;
+    height: 171px;
+    margin-left: 0;
+    margin-top: 11px;
+}
+
+.header-right {
+    display: block;
+    margin-left: 24px;
+    margin-top: 11px;
+}
+
+.header-top {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.team-name {
+    width: 204px;
+    height: 60px;
+    font-family: 'Post No Bills Jaffna';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+    margin-left: 0;
+}
+
+.social-links {
+    display: flex;
+    justify-content: space-between;
+    vertical-align: bottom;
+    height: 40px;
+}
+
+.social-link {
+    margin-left: 8px;
+}
+
+.navigation {
+    margin-top: 70px;
+    margin-left: 54px;
+    height: 35px;
+}
+
+.navigation-link {
+    font-family: Ubuntu Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 30px;
+    color: #FFF9F9;
+    margin-right: 93px;
+    text-decoration: none;
+}
+
+.navigation-link:last-child {
+    margin-right: 0;
+}
+
+.line {
+    border: 1px solid #FFFDFD;
+}
+
+.red-line {
+    border: 3px solid #E54B69;
+}
+
+/* first-section */
+
+.first-section {
+    margin-top: 75px;
+}
+
+.photo-slide {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.photo-slide-left {
+    display: block;
+}
+
+.photo-description {
+    font-family: Balsamiq Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 42px;
+}
+
+.photo-team {
+    margin-top: 20px;
+}
+
+.text-description {
+    font-family: Balsamiq Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFFCFC;
+    display: flex;
+    flex-wrap: wrap;
+    width: 278px;
+    height: 178px;
+}
+
+.photo-pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 44px;
+    cursor: pointer;
+}
+.photo-bullet {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+.photo-bullet-active {
+    background-color: #ffffff;
+}
+
+/* second-section */
+
+.second-section {
+    margin-top: 150px;
+    display: flex;
+}
+
+
+.we-team-title {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-left: 455px;
+}
+
+.team-line {
+    width: 100px;
+    margin-left: 535px;
+    margin-top: 25px;
+    border: 1px solid #FFFFFF;
+}
+
+.players {
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.player {
+    width: 178px;
+    height: 260px;
+    flex-basis: 20%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 42px;
+}
+
+.player-avatar {
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.player-name {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFEFE;
+    margin-top: 15px;
+    justify-content: center;
+}
