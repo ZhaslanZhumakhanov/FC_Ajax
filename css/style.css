@@ -52,7 +52,6 @@ body {
     font-weight: bold;
     font-size: 40px;
     line-height: 60px;
-    color: #FFFFFF;
     flex-wrap: nowrap;
 }
 
@@ -99,7 +98,7 @@ body {
 /* first-section */
 
 .first-section {
-    margin-top: 100px;
+    margin-top: 140px;
 }
 
 .photo-slide {
@@ -137,6 +136,10 @@ body {
     height: 178px;
 }
 
+.swiper-container1 {
+    overflow: hidden;
+}
+
 .photo-pagination {
     display: flex;
     align-items: center;
@@ -160,7 +163,7 @@ body {
 /* second-section */
 
 .second-section {
-    margin-top: 150px;
+    margin-top: 120px;
     display: flex;
 }
 
@@ -173,7 +176,6 @@ body {
     line-height: 40px;
     text-align: center;
     text-transform: uppercase;
-    color: #FFFFFF;
     margin-left: 455px;
 }
 
@@ -181,7 +183,7 @@ body {
     width: 100px;
     margin-left: 535px;
     margin-top: 25px;
-    border: 1px solid #FFFFFF;
+    border: 1px solid;
 }
 
 .players {
@@ -220,4 +222,61 @@ body {
     color: #FFFEFE;
     margin-top: 15px;
     justify-content: center;
+}
+
+/* third-section */
+.third-section {
+    margin-top: 165px;
+    display: block;
+}
+
+.games-title {
+    font-family: Balsamiq Sans;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.game {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.game-description {
+    font-family: Balsamiq Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 5px;
+}
+
+.swiper-container2 {
+    overflow: hidden;
+}
+
+.games-pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 44px;
+    cursor: pointer;
+}
+.games-bullet {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+.games-bullet-active {
+    background-color: #ffffff;
 }
