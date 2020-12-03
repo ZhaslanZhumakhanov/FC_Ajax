@@ -10,8 +10,8 @@ img {
 
 body {
     margin: 0;
-    height: 3681px;
-    background: linear-gradient(180deg, #D31338 0%, rgba(10, 9, 9, 0.931828) 5.21%, rgba(0, 0, 0, 0.898962) 29.17%, rgba(0, 0, 0, 0.887796) 54.69%, rgba(14, 13, 13, 0.952425) 69.79%, #1F1B1B 87.5%, #000000 100%);
+    height: 3510px;
+    background: linear-gradient(180deg, #D31338 0%, rgba(10, 9, 9, 0.931828) 5.21%, rgba(0, 0, 0, 0.898962) 29.17%, rgba(0, 0, 0, 0.887796) 54.69%, rgba(14, 13, 13, 0.952425) 69.79%, #0F0F0F 87.5%, #000000 100%);
     color: #FFFFFF;
 }
 
@@ -47,11 +47,10 @@ body {
 }
 
 .team-name {
-    font-family: 'Post No Bills Jaffna';
+    font-family: 'Merienda One';
     font-style: normal;
-    font-weight: bold;
     font-size: 40px;
-    line-height: 60px;
+    line-height: 58px;
     flex-wrap: nowrap;
 }
 
@@ -226,6 +225,29 @@ body {
 
 /* third-section */
 .third-section {
+    margin-top: 120px;
+}
+
+.table-title{
+    font-family: Caveat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 57px;
+    text-align: center;
+}
+
+.third-section-content {
+    margin-top: 35px;
+}
+
+.table {
+    display:flex;
+    margin: auto;
+}
+
+/* fourth-section */
+.fourth-section {
     margin-top: 165px;
     display: block;
 }
@@ -279,4 +301,31 @@ body {
 }
 .games-bullet-active {
     background-color: #ffffff;
+}
+
+/* down */
+.down {
+    margin-top: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.license {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+    color: #BFBFBF;
+}
+
+.creators {
+    font-family: Caveat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 35px;
+    color: #BFBFBF;
+    text-align: right;
 }
