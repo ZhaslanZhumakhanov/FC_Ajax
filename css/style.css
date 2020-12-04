@@ -57,12 +57,12 @@ body {
 .social-links {
     display: flex;
     justify-content: space-between;
-    vertical-align: bottom;
+    align-items: center;
     height: 40px;
 }
 
 .social-link {
-    margin-left: 8px;
+    margin-left: 10px;
 }
 
 .navigation {
@@ -260,7 +260,7 @@ body {
     line-height: 48px;
 }
 
-.game {
+.game-slide {
     margin-top: 40px;
     display: flex;
     justify-content: space-between;
@@ -315,7 +315,7 @@ body {
     font-family: PT Sans;
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
+    font-size: 15px;
     line-height: 31px;
     color: #BFBFBF;
 }
@@ -324,7 +324,7 @@ body {
     font-family: Caveat;
     font-style: normal;
     font-weight: normal;
-    font-size: 28px;
+    font-size: 20px;
     line-height: 35px;
     color: #BFBFBF;
     text-align: right;
