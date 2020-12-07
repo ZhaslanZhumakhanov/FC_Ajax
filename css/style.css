@@ -250,10 +250,10 @@ body {
 }
 
 .table {
-    margin-top: 35px;
-    border-radius: 10px;
     display:flex;
     margin: auto;
+    margin-top: 35px;
+    border-radius: 10px;
 }
 
 /* fourth-section */
