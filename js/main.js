@@ -1,3 +1,6 @@
+
+new WOW().init();
+
 var mySwiper1 = new Swiper(".swiper-container1", {
   spaceBetween: 30,
   centeredSlides: true,
